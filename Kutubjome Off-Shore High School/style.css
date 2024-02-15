@@ -1,0 +1,524 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+div{
+    text-align: center;    
+    /* margin:auto; */
+    
+}
+
+.header{
+    width:80%;
+    min-height: 100px;
+    margin:auto;
+    /* margin-top: 100px; */
+    /* border: 1px solid #000; */
+}
+
+.up{
+    background-color: rgb(78, 11, 78);
+    text-align: left;
+    display: flex;
+}
+
+#p1{
+        margin-left: 20px;
+        color:white;
+}
+
+#p2{
+    margin-left: 300px;
+    color:white;
+}
+
+#button-up{
+    margin-left: 500px;
+    background-color: green;
+    border-radius: 20%;
+}
+
+.header-bottom{
+    display: flex;
+}
+
+.header-logo{
+    width:30%;
+    
+}
+
+/* .sidebar-nav li{
+    list-style-type: none;
+}
+
+#sidebar-nav li a {
+    text-decoration: none;
+} */
+
+
+
+/* .notice2 li a{
+    color: black;
+    text-decoration: none; 
+    border-bottom: 1px dotted black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li::before {
+    content: 
+    margin-right: 5px; 
+    color:green;
+} */
+.school-logo{
+    text-align: left;
+}
+.school-logo img{
+    width:150px;
+    height:150px;
+    margin:20px 10px 20px 100px;
+}
+
+.colored-title{
+    margin-left: -30px;
+}
+.col-md-9{
+    margin-top: 10px;
+    text-align: left;
+    /* margin-left:10px; */
+}
+
+.content{
+    display:flex;
+    margin:auto;
+    /* height: 100px; */
+    /* border: 1px solid #000; */
+    width:80%;
+    /* min-height:100px */
+    height:auto;
+}
+
+.sidebar{
+    width:20%;
+    /* border-right: 1px solid #000; */
+    height:auto;
+}
+
+.cbody{
+    width:60%;
+    /* border-right: 1px solid #000; */
+    height:auto;
+}
+
+.extra{
+    width:20%;
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+    display: block;
+    /* min-height: 100px; */
+    height:auto;
+}
+
+.biography{
+    /* border-bottom: 1px solid #000; */
+    /* min-height: 100px; */
+    height:auto;
+}
+
+.notice{
+    /* border: 1px solid #000; */
+    /* min-height: auto; */
+    height:auto;
+    /* padding-top: 100px; */
+}
+.footer{
+    margin:auto;
+    height: 100px;
+    /* border: 1px solid #000; */
+    width:80%;
+}
+
+.important-message{
+    width:100%;
+    /* border: 1px solid #000; */
+    height:30px;
+}
+
+.important-message h1 {
+    /* margin: 0; */
+    line-height: 25px; 
+    font-size: 18px;
+}
+
+.image{
+    height:200px;
+    margin-bottom: 10px;
+}
+
+.esheba{
+    background-color: green;
+    text-align: left;
+    width:15%
+}
+.esheba p{
+    margin-left: 10px;
+    color:white;
+}
+
+.esheba-box{
+    width:100%;
+    border:1px solid #dbd1d1;
+    height:120px;
+    display: flex;
+}
+
+.esheba-box div{
+    width: 20%;
+    /* border:1px solid #000; */
+}
+
+.esheba-box div img{
+    margin-top: 10px;
+    width:35%;
+    height:45%;
+}
+
+.esheba-box div a{
+    text-decoration: none;
+}
+.notice-inside-body{
+    margin-top: 10px;
+    /* border:1px solid #000; */
+    display:flex;
+}
+#logo{
+    width:30%;
+    height:250px;
+    /* margin-left: 0;
+    align-items: left; */
+    text-align: left;
+    /* padding-left: -15px;
+    padding-right: -15px; */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#logo img{
+    width: 40%;
+    height: 40%;
+    border-radius: 20%;
+    margin-left: -10px; 
+    margin-top: -10px; 
+}
+
+.notice-inside-body{
+    height:250px;
+    position: relative;
+}
+.notice2{
+    margin-top:60px;
+    text-align: left;
+    /* display: relative; */
+    display:block;
+}
+
+.notice2 li a{
+    color: black;
+    text-decoration: none; 
+    border-bottom: 1px dotted black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li::before {
+    content: "\25B6"; 
+    margin-right: 5px; 
+    color:green;
+}
+
+.notice2 a{
+    color: black;
+    text-decoration: none; 
+    border-bottom: 1px dotted black;
+}
+
+#btn-notice{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px; 
+    display: inline-block;
+    padding: 5px 10px; 
+    background-color: #c5c1bb; 
+    text-decoration: none;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}    
+
+
+.biography{
+    width: 100%;
+    height:50%;
+}
+
+/* .notice{
+    width: 100%;
+    height:50%;
+} */
+
+.news{
+    display: block;
+}
+
+.news-title{
+    margin-top:10px;
+    text-align: left;
+    /* margin-left:10px; */
+    background-color: green;
+}
+
+.news-title p{
+    margin-left: 15px;
+    color:white;
+}
+
+/* .news-boxes{
+    height: 200px;
+} */
+
+.news-boxes{
+    margin-top:5px;
+}
+.news-boxes-top,.news-boxes-bottom{
+    display: flex;
+}
+
+.news-boxes-top div{
+    width:50%;
+    border:1px solid #000;
+    
+}
+
+.news-boxes-bottom div{
+    width:50%;
+    border:1px solid #000;
+}
+
+.news-boxes p{
+    margin-top:5px;
+}
+.top-1{
+    margin-right: 10px;
+    text-align: left;
+    /* display: flex; */
+}
+
+.top-2{
+    text-align: left;
+    display: block;
+    /* display: flex; */
+}
+
+.bottom-1{
+    margin-right: 10px;
+    text-align: left;
+    /* display: flex; */
+}
+
+.bottom-2{
+    text-align: left;
+    /* display: flex; */
+}
+.news-boxes p{
+    margin-left: 10px;
+}
+
+.news-boxes img{
+    width: 30%;
+    height: 50%;
+    margin-left: 10px;
+}
+
+.news-boxes ul{
+    margin-top: -65px;
+    margin-left:160px;
+}
+
+.news-boxes a{
+    text-decoration: none;
+    color:black;
+}
+
+.teachers{
+    /* margin-top: 5px; */
+    /* border:1px solid #000; */
+    box-sizing: border-box;
+    display: block;
+}
+.teachers-p{
+    margin-top: 5px;
+    background-color: green;
+    text-align: left;
+    height:30px;
+}
+.teachers-p p{
+    color:white;
+    margin-left:20px;
+    padding-top:5px;
+}
+
+.teachers-pics{
+    display: flex;
+    /* width:auto; */
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.detail{
+    /* display: block; */
+    width:auto;
+}
+
+.photo,.info{
+    display: block;
+}
+.photo img{
+    width:90%;
+    height:170px;
+}
+
+.president{
+    height:400px;
+    height: auto;
+}
+
+.head-master{
+    height:400px;
+    margin-top: 50px;
+    /* height: auto; */
+}
+.president-title{
+    background-color: green;
+    text-align: left;
+    margin-left:5px;
+}
+
+.president-title a{
+    margin-left: 10px;
+    color:white;
+}
+
+.head-master-title{
+    background-color: green;
+    text-align: left;
+    margin-left:5px;
+}
+
+.head-master-title a{
+    margin-left: 10px;
+    color:white;
+}
+
+.president-photo img{
+    width: 70%;
+    height: 175px;
+    margin-top:15px;
+}
+
+.head-master-photo img{
+    width: 70%;
+    height: 175px;
+    margin-top:5px;
+}
+
+.notice{
+    /* margin-top: 20px; */
+}
+.important-links{
+    background-color: green;
+    height:25px;
+    text-align: left;
+    margin-left:5px;
+    border: 1px solid #000;;
+}
+
+.important-links p{
+    margin-left: 10px;
+    color:white;
+}
+
+.unordered-list{
+    border:1px solid #000;
+    border-bottom: none;
+    margin-left: 5px;
+}
+
+.unordered-list ul li{
+    margin-top:5px;
+    margin-bottom:5px;
+    border-bottom: 1px solid rgb(77, 64, 64); 
+    padding-bottom: 5px; 
+}
+
+.hotline img{
+    height:250px;
+    width:90%;
+}
+
+.national-song{
+    background-color: green;
+    height:25px;
+    text-align: left;
+    margin-top:20px;
+    margin-left:5px;
+}
+
+.national-song p{
+    margin-left: 10px;
+    color:white;
+}
+
+#ac{
+    width:270px;
+}
+.national-song p{
+    
+}
+
+#sidebar-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar-nav li{
+    list-style-type: ;
+    color: black;
+    text-decoration: none; 
+    border-bottom: 1px dotted rgb(172, 159, 159);
+    text-align: left;
+    height:50px;
+}
+
+#home{
+    height:30px;
+    width:40px;
+    margin-top:5px;
+}
+
+#sidebar-nav li a{
+    color: black;
+    text-decoration: none; 
+}
+
+#sidebar-nav li::before {
+    content:"";
+}
